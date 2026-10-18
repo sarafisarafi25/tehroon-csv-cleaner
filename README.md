@@ -45,6 +45,6 @@ python app.py input.csv --encoding cp1254 --delimiter semicolon
 python -m unittest discover -s tests -v
 ```
 
-Python 3.10 or newer. Processing and CLI verified with Python 3.12. Desktop GUI requires a full Python installation with Tkinter; Windows GUI verification is still to be completed on the user's laptop.
+Python 3.10 or newer. Processing and CLI verified with Python 3.12. Desktop GUI requires a full Python installation with Tkinter;The Windows desktop interface and included sample workflow were verified with Python 3.14.7.
 
 This is a demonstration / portfolio project. It is not a paid client assignment and does not provide automatic earnings.
