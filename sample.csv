@@ -1,0 +1,10 @@
+﻿ id ,name,city,note
+001, Ali , Istanbul ,first
+002,Sara,Ankara,second
+001,Ali,Istanbul,first
+,,,
+003,نازنین,İzmir,"two
+lines"
+002,Sara,Ankara,second
+004,Ömer,Bursa,
+

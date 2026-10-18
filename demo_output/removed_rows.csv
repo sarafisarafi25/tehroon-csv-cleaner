@@ -1,0 +1,5 @@
+﻿removal_reason,source_record,original_cells_json
+duplicate,4,"[""001"", ""Ali"", ""Istanbul"", ""first""]"
+empty,5,"["""", """", """", """"]"
+duplicate,7,"[""002"", ""Sara"", ""Ankara"", ""second""]"
+empty,9,[]

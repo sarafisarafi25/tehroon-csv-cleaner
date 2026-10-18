@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CSV cleaning report</title><style>
+body{font:16px/1.6 system-ui,sans-serif;margin:0;color:#202526;background:#f4f5f1}main{max-width:1080px;margin:auto;padding:42px 24px}
+.eyebrow{color:#886726;font-size:12px;font-weight:700;letter-spacing:2px}h1{font-size:36px;line-height:1.2;margin:10px 0 12px}
+.muted{color:#596260}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:28px 0}
+.card{background:white;border:1px solid #dfe3db;border-radius:12px;padding:20px}.card span{display:block;color:#596260;font-size:14px}strong{display:block;font-size:30px}
+section{background:white;border:1px solid #dfe3db;border-radius:12px;padding:22px;margin-top:20px;overflow:auto}h2{font-size:20px;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:start;border-bottom:1px solid #e5e7e0;padding:10px 12px;white-space:pre-wrap;min-width:85px}th{background:#f4f5f1}code{overflow-wrap:anywhere;font-size:12px}
+</style><main><div class="eyebrow">TEHROON / AUTOMATION TOOLS</div><h1>CSV cleaning report</h1>
+<p class="muted">Source: sample.csv. First record treated as column names. All cell values retained as text.</p>
+<div class="cards"><div class="card"><span>Input rows</span><strong>8</strong></div><div class="card"><span>Clean rows</span><strong>4</strong></div><div class="card"><span>Duplicates removed</span><strong>2</strong></div><div class="card"><span>Empty rows removed</span><strong>2</strong></div></div><section><h2>Processing settings</h2>
+<p>Trim outer whitespace: True<br>Remove exact duplicate rows after optional trimming: True<br>Cells trimmed, including headers and removed rows: 3</p>
+<p>The input file was opened for reading only. Removed rows are available in removed_rows.csv.</p></section>
+<section><h2>Cleaned data preview</h2><p class="muted">First 4 of 4 output rows.</p><table><thead><tr><th>id</th><th>name</th><th>city</th><th>note</th></tr></thead><tbody><tr><td>001</td><td>Ali</td><td>Istanbul</td><td>first</td></tr><tr><td>002</td><td>Sara</td><td>Ankara</td><td>second</td></tr><tr><td>003</td><td>نازنین</td><td>İzmir</td><td>two
+lines</td></tr><tr><td>004</td><td>Ömer</td><td>Bursa</td><td></td></tr></tbody></table></section>
+<section><h2>Missing cells in retained rows</h2><table><thead><tr><th>Column</th><th>Missing cells</th></tr></thead><tbody><tr><td>id</td><td>0</td></tr><tr><td>name</td><td>0</td></tr><tr><td>city</td><td>0</td></tr><tr><td>note</td><td>1</td></tr></tbody></table></section>
+<p class="muted">Input SHA-256: <code>10efadf3c75c11961f14475d5be2a891e83f1c331ad8aa6f653456c6eca176f7</code></p></main></html>

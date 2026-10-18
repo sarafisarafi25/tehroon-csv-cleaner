@@ -1,0 +1,20 @@
+{
+  "source_name": "sample.csv",
+  "source_sha256": "10efadf3c75c11961f14475d5be2a891e83f1c331ad8aa6f653456c6eca176f7",
+  "input_rows": 8,
+  "output_rows": 4,
+  "columns": 4,
+  "removed_empty_rows": 2,
+  "removed_duplicate_rows": 2,
+  "trimmed_cells": 3,
+  "encoding_read": "utf-8-sig",
+  "delimiter_read": ",",
+  "trim_enabled": true,
+  "deduplicate_enabled": true,
+  "missing_cells_by_column": {
+    "id": 0,
+    "name": 0,
+    "city": 0,
+    "note": 1
+  }
+}
